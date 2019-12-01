@@ -195,13 +195,35 @@
 
 \begin{frame}
   \begin{center}
-    \includegraphics[width=3in]{schlegel2}
+    Tutte's idea for drawing graphs ``nicely'':
+
+    \includegraphics[width=2in]{equilibrium1}
+
+    Place a vertex $v$ in the {\em barycenter} of its neighbors:
+    \[
+    \sum_{w\in Neighbors(v)} position(w)-position(v) = 0
+    \]
   \end{center}
 \end{frame}
 
 \begin{frame}
   \begin{center}
-    \includegraphics[width=3in]{al-equilibrium}
+    For finite graphs, prescribe a convex outer face.
+
+    \includegraphics[width=2.5in]{schlegel2}\\
+    For polyhedral graphs, this ensures convex drawings.\\
+    ({\em How to draw a graph,} W.\ T.\ Tutte 1963.)
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    For periodic graphs, prescribe a vertex lattice.
+
+    \includegraphics[width=2.5in]{al-equilibrium}
+
+    Solution is then unique, so all periodic barycentric placements are the
+    same up to affine transformations.
   \end{center}
 \end{frame}
 
