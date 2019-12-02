@@ -297,15 +297,32 @@
     \quad
     \includegraphics[width=1.1in]{ladder}
 
-    For an abstract graph $G$, we have to explicitly pick a translation group
-    $T\leq \mathrm{Aut}(G)$.  If $G$ is not crystallographic, $T$ is not
-    unique and we can have $\varphi T\varphi^{-1} \neq T$.
+    For an abstract graph $G$, we must explicitly pick a translation group
+    $T\leq \mathrm{Aut}(G)$.
 
-    If we can show that $\alpha_\varphi$ can be uniquely defined on some vertex
-    sublattice with respect to $T$, everything is good.
+    If $G$ is not crystallographic, $T$ is not unique and we can have $\varphi
+    T\varphi^{-1} \neq T$.
 
-    How can we exclude rogue automorphisms that mess up all the sublattices,
-    no matter how large?
+    But $p$ was only constructed to be periodic with respect to $T$, not
+    necessarily $\varphi T\varphi^{-1}$.
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    \includegraphics[width=1.1in]{unstable}
+    \quad
+    \includegraphics[width=1.1in]{ladder}
+
+    Possible ways forward:
+
+    -- Show uniqueness of barycentric placements under weaker conditions.
+
+    -- Construct the homomorphism onto a crystallographic group without
+    requiring $\alpha_\varphi$ to be a global match.
+
+    -- Learn more about the structure of non-crystallographic nets (c.f.\ work
+    by Eon and Moreira de Oliveira).
   \end{center}
 \end{frame}
 
