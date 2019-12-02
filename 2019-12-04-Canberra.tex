@@ -258,7 +258,7 @@
 
     \includegraphics[width=1.8in]{affine}
 
-    Define $\alpha_\varphi\colon \mathbb{R}^n \to \mathbb{R}^n$ affine with
+    Define affine map $\alpha_\varphi\colon \mathbb{R}^n \to \mathbb{R}^n$ with
     $\alpha_\varphi(p(v_i)) = p(\varphi(v_i))$ for just enough vertices
     $v_i\in V(G)$ to make it unique.
 
@@ -281,6 +281,8 @@
 
     Thus $\varphi \mapsto \alpha_\varphi$ defines a group homomorphism that
     maps $\mathrm{Aut}(G)$ onto a crystallographic group.
+
+    If $G$ is stable, the kernel must be trivial.
   \end{center}
 \end{frame}
 
@@ -299,12 +301,38 @@
     $T\leq \mathrm{Aut}(G)$.  If $G$ is not crystallographic, $T$ is not
     unique and we can have $\varphi T\varphi^{-1} \neq T$.
 
-    If we can show that $\alpha_\varphi$ can be defined on some vertex
+    If we can show that $\alpha_\varphi$ can be uniquely defined on some vertex
     sublattice with respect to $T$, everything is good.
 
     How can we exclude rogue automorphisms that mess up all the sublattices,
     no matter how large?
   \end{center}
 \end{frame}
+
+
+\section{Thanks}
+
+\begin{frame}
+  \begin{center}
+    \Huge
+
+    That's all folks!
+
+    \bigskip
+
+    \tiny
+
+    Further reading:
+
+    Delgado-Friedrichs 2005, Moreira de Oliveira \& Eon 2011, 2013, 2014, 2018
+
+    \bigskip
+
+    Slides:
+
+    {\tt http://gavrog.org/order-order.pdf}
+  \end{center}
+\end{frame}
+
 
 \end{document}
