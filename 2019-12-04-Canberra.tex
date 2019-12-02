@@ -253,7 +253,32 @@
 
 \begin{frame}
   \begin{center}
-    \includegraphics[width=2in]{affine}
+    If $p\colon G \to \mathbb{R}^n$ is barycentric and $\varphi\colon G \to
+    G$ an automorphism, then $p\circ\varphi$ is also barycentric.
+
+    \includegraphics[width=1.8in]{affine}
+
+    Define $\alpha_\varphi\colon \mathbb{R}^n \to \mathbb{R}^n$ affine with
+    $\alpha_\varphi(p(v_i)) = p(\varphi(v_i))$ for just enough vertices
+    $v_i\in V(G)$ to make it unique.
+
+    If $p$ and $p\circ\varphi$ are periodic, then $\alpha_\varphi\circ p =
+    p\circ\varphi$ everywhere.
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    Because we have finitely many edge lattices, there can up to translations
+    only be finitely many such $\alpha_\varphi$.
+
+    \includegraphics[width=1.8in]{affine}
+
+    By a standard trick (averaging the inner product),\\
+    we can turn them all into rigid motions, a.k.a.\ isometries.
+
+    Thus $\varphi \mapsto \alpha_\varphi$ maps $\mathrm{Aut}(G)$ onto a
+    crystallographic group.
   \end{center}
 \end{frame}
 
